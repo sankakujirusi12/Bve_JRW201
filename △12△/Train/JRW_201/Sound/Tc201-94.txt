@@ -1,0 +1,72 @@
+Version 1.0
+
+[Run]
+0 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Run0.wav
+1 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Run3.wav
+2 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Run4.wav
+3 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Run2.wav
+4 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Run3.wav
+
+[Flange]
+0 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Flange0.wav
+1 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Flange0.wav
+
+[Motor]
+1 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Motor1.wav
+;2 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Motor2.wav
+
+[Switch]
+0 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Point.wav
+
+[Brake]
+BC Release High = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Air.wav
+BC Release Full = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\AirZero.wav
+BC Release = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Air.wav
+Emergency = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\EmrBrk.wav
+
+[Compressor]
+Attack = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\CpStart.wav
+Loop = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\CpLoop.wav
+Release = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\CpEnd.wav
+
+[Horn]
+Primary = ..\..\..\..\Rock_On\Train\JR\Vehicle\103\Sound\horn.wav
+PrimaryRelease = ..\..\..\..\Rock_On\Train\JR\Vehicle\103\Sound\hornrelease.wav
+
+[Door]
+Open Left = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\DoorOpnL.wav
+Open Right = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\DoorOpnR.wav
+Close Left = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\DoorClsL.wav
+Close Right = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\DoorClsR.wav
+
+[Brake Handle]
+Apply = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Brake3.wav
+;Release = Sound\Brake.wav
+;Min = Sound\Brake2.wav
+
+[Others]
+Noise = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Loop.wav
+
+[Ats]
+0 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Ats.wav
+;1 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\AtsCnt.wav
+2 = ../../../../Rock_On\Train\JR\Vehicle\common\Sound\P.wav
+3 = ../../../../Rock_On\Train\JR\Vehicle\201\Sound\Eb.wav
+;4 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\P.wav
+10 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Spp1.wav
+11 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Spp2.wav
+21 = ..\..\..\..\Rock_On\Train\JR\Vehicle\115\Sound\ATSCnt_L.wav
+22 = ..\..\..\..\Rock_On\Train\JR\Vehicle\115\Sound\ATSCnt_R.wav
+180 = ../../../../Rock_On\Train\JR\Vehicle\common\sound\buzzer.wav
+205 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\CH75.wav
+206 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\CH150.wav
+207 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\CH300_2.wav
+208 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\CH300.wav
+211 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\LbOn.wav
+212 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\LbOff.wav
+220 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Brake.wav
+221 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Brake1.wav
+222 = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Brake2.wav
+
+[Buzzer]
+Correct = ..\..\..\..\Rock_On\Train\JR\Vehicle\201\Sound\Adjust.wav

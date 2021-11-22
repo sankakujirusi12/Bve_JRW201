@@ -1,0 +1,328 @@
+﻿BveTs Instrument Panel 2.01
+
+[This]
+Resolution=3000
+Left=10
+Top=0
+Right=4086
+Bottom=2481
+Center=1870,1260
+Origin=1870,1010
+
+[Pilotlamp]
+Subject=true
+Location=0,0
+DaytimeImage=Panel.png
+NighttimeImage=Panel_n.png
+Layer=3
+
+[Pilotlamp]
+Subject=true
+Location=2784,1037
+DaytimeImage=Bougo_Nara.png
+NighttimeImage=Bougo_Nara_n.png
+Layer=4
+
+[Pilotlamp]
+Subject=true
+Location=1757,1699
+DaytimeImage=Clock.png
+NighttimeImage=Clock_n.png
+Layer=4
+
+[Pilotlamp]
+Subject=door
+Location=1757,1699
+DaytimeImage=Clock_On.png
+NighttimeImage=Clock_On_n.png
+Layer=5
+
+[Pilotlamp]
+Subject=door
+Location=1758,1444
+DaytimeImage=DoorOn.png
+Layer=6
+
+[Needle]
+Subject = ats97
+Location = 2037,2863
+DaytimeImage = Wiper2.png
+NighttimeImage = Wiper2_n.png
+Origin = 128,2000
+Radius = 2000
+Layer = 1
+InitialAngle = 20
+LastAngle = 70
+Minimum = 0
+Maximum = 1
+NaturalFreq = 6
+DampingRatio = 1
+
+[Needle]
+Subject = ats97
+Location = 2037,10400
+DaytimeImage = Wiper1.png
+NighttimeImage = Wiper1_n.png
+Origin = 32,10000
+Radius = 10000
+Layer = 2
+InitialAngle = 4
+LastAngle = 14
+Minimum = 0
+Maximum = 1
+NaturalFreq = 6
+DampingRatio = 1
+
+[Pilotlamp]
+Subject=ats35
+Location=1526,2082
+DaytimeImage=Chokutu.png
+Layer=7
+
+[Pilotlamp]
+Subject=ats41
+Location=1659,2082
+DaytimeImage=Unit1.png
+Layer=7
+
+[Pilotlamp]
+Subject=ats42
+Location=1796,2082
+DaytimeImage=Unit2.png
+Layer=7
+
+[Pilotlamp]
+Subject=ats0
+Location=2207,2082
+DaytimeImage=ATS.png
+Layer=7
+
+[Pilotlamp]
+Subject=ats1
+Location=2504,2082
+DaytimeImage=ATSDousa.png
+Layer=7
+
+[Pilotlamp]
+Subject=true
+Location=0,1683
+DaytimeImage=Osae.png
+NighttimeImage=Osae_n.png
+Layer=9
+
+
+;圧力計1
+[Needle]
+Layer = 6
+Subject = mr
+Location = 852,1744
+DaytimeImage   = cake\bc ne.png
+NighttimeImage = cake\bc ne nigh.png
+Origin = 66,348
+Radius = 124
+InitialAngle = -132
+LastAngle = 134
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 7
+Subject = er
+Location = 852,1744
+DaytimeImage   = cake\bp ne.png
+NighttimeImage = cake\bp ne nigh.png
+Origin = 66,348
+Radius = 114
+InitialAngle = -132
+LastAngle = 134
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+;圧力計2
+
+[Needle]
+Layer = 6
+Subject = bc
+Location = 1215,1746
+DaytimeImage   = cake\bc ne.png
+NighttimeImage = cake\bc ne nigh.png
+Origin = 66,348
+Radius = 124
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 7
+Subject = sap
+Location = 1215,1746
+DaytimeImage   = cake\bp ne.png
+NighttimeImage = cake\bp ne nigh.png
+Origin = 66,348
+Radius = 114
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+;速度計
+
+[Needle]
+Layer = 6
+Subject = kmph
+Location = 1582,1741
+DaytimeImage   = cake\kmph ne.png
+NighttimeImage = cake\kmph ne nigh.png
+Origin = 32, 512
+Radius = 124
+InitialAngle = -123
+LastAngle = 123
+Minimum = 0
+Maximum = 122
+NaturalFreq = 5
+DampingRatio = 0.5
+
+;圧力計3
+
+[Needle]
+Layer = 6
+Subject = true
+Location = 2182,1744
+DaytimeImage   = cake\bc ne.png
+NighttimeImage = cake\bc ne nigh.png
+Origin = 66,348
+Radius = 124
+InitialAngle = -3
+LastAngle = -3
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 7
+Subject = bp
+Location = 2182,1744
+DaytimeImage   = cake\bp ne.png
+NighttimeImage = cake\bp ne nigh.png
+Origin = 66,348
+Radius = 114
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+
+[Needle]
+Layer = 6
+Subject = ats48
+Location = 2547,1746
+DaytimeImage   = cake\kmph ne.png
+NighttimeImage = cake\kmph ne nigh.png
+Origin = 32, 512
+Radius = 124
+InitialAngle = 58
+LastAngle = 58
+Minimum = 0
+Maximum = 2000
+NaturalFreq = 5
+DampingRatio = 0.5
+
+
+[Needle]
+Layer = 10
+Subject = hour
+Location = 1877,1844
+DaytimeImage   = hour_d.png
+NighttimeImage = hour_n.png
+Origin = 64,384
+Radius = 54
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 9
+Subject = hour
+Location = 1877,1847
+DaytimeImage   = hour_shadow.png
+Origin = 64,384
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 12
+Subject = min
+Location = 1877,1844
+DaytimeImage   = min_d.png
+NighttimeImage = min_n.png
+Origin = 64,384
+Radius = 54
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 11
+Subject = min
+Location = 1877,1847
+DaytimeImage   = min_shadow.png
+Origin = 64,384
+Radius = 54
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 14
+Subject = sec
+Location = 1877,1844
+DaytimeImage   = sec_d.png
+NighttimeImage = sec_n.png
+Origin = 64,320
+Radius = 54
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 13
+Subject = sec
+Location = 1877,1847
+DaytimeImage   = sec_shadow.png
+Origin = 64,320
+Radius = 54
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5

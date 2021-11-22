@@ -1,1 +1,8 @@
-
+Bvets Vehicle 2.00
+PerformanceCurve = ../../../Rock_On\Train\JR\Vehicle\201\Notch\Notch.txt
+Parameters = Param\LB09.txt
+Panel = Panel\Panel_Mori.txt
+Sound = Sound\Tc201-94.txt
+Ats32 = Detail\ATS-SWP2\DetailManager.dll
+Ats64 = Detail\ATS-SWP2\DetailManager_.dll
+MotorNoise = ../../../Rock_On\Train\JR\Vehicle\201\motornoise\motornoise.txt
