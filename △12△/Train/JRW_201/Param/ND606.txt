@@ -33,7 +33,8 @@ BrakePriority = true
 MotorcarWeight = 41600
 MotorcarCount = 4
 TrailerWeight = 32600
-TrailerCount = 2CarLength = 20
+TrailerCount = 2
+CarLength = 20
 [Cab]
 BrakeNotchCount = 8
 PowerNotchCount = 4
