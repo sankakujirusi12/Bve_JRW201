@@ -22,9 +22,15 @@ bve-plugin-bridge　まじかんと様
 ★★201系  
 ☆0番台  
 モリLB09編成  
-8両:△12△\Train\JRW_201\LB09.txt  
+8両:
+```
+△12△\Train\JRW_201\LB09.txt  
+```
 ナラND606編成  
-6両:△12△\Train\JRW_201\ND606.txt  
+6両:
+```
+△12△\Train\JRW_201\ND606.txt  
+```
 
 # キーアサイン  
 ATS入換:3(テンキーでないほう)  
@@ -34,7 +40,7 @@ ATS-S確認:space
 ワイパー:9(テンキーでないほう)  
 
 # ダウンロード  
-[こちらより'Source Code(zip)'をダウンロードしてください](https://github.com/sankakujirusi12/Bve_JRW201/releases/tag/1.0)
+[こちらより`Source Code(zip)`をダウンロードしてください](https://github.com/sankakujirusi12/Bve_JRW201/releases/tag/1.0)
 
 # 更新履歴  
 2021/12/09 初版公開
