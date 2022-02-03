@@ -2,9 +2,11 @@
 Bve5.8/6.0用　201系西日本車車両データ  
 
 # ファイル構成  
+```
 Scenarios - △12△  
-　　　　 - Rock_On  
-　　　　 - GeneralAtsPlugin  
+　　　   　 - Rock_On  
+　　　   　 - GeneralAtsPlugin  
+```
 となるよう導入・配置してください。  
 
 # 導入が必要なもの  
