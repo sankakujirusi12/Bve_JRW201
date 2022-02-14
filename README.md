@@ -38,7 +38,10 @@ bve-plugin-bridge　まじかんと様
 ATS入換:3(テンキーでないほう)  
 ATS-S:4(テンキーでないほう)  
 ATS-P:5(テンキーでないほう)  
-ATS-S確認:space  
+ATS-S確認:Space  
+ATS-S復帰:Home
+ATS-S警報持続:Insert  
+EBリセット:Delete  
 ワイパー:9(テンキーでないほう)  
 
 # ダウンロード  
